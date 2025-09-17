@@ -1,0 +1,71 @@
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git add .
+warning: adding embedded git repository: Desktop/Final_Ecom/Ecom_Service
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Desktop/Final_Ecom/Ecom_Service
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Desktop/Final_Ecom/Ecom_Service
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git commit
+warning: could not open directory '.Trash/': Operation not permitted
+Aborting commit due to empty commit message.
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git commit -m "Changes"
+[master (root-commit) 907a1f6] Changes
+ 1 file changed, 1 insertion(+)
+ create mode 160000 Desktop/Final_Ecom/Ecom_Service
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git branch
+
+* master
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % # Rename local branch
+git branch -m master main
+
+# Push to GitHub with new branch name
+git push -u origin main
+
+zsh: command not found: #
+zsh: command not found: #
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git branch -m master main
+fatal: no branch named 'master'
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git branch
+* main
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git push origin main     
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+shreyagp@Shreya-G-Ps-MacBook-Air Final_Ecom % git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
